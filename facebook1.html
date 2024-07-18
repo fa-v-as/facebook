@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="facebook1.css">
+</head>
+
+<body style="margin: 0;background: linear-gradient(whit 0%,white 100%);height:fit-content;">
+    <div class="navbar">
+        <h1>facebook</h1>
+        <div class="navform">
+            <form action="">
+                <table class="top">
+                    <tr>
+                        <td><input type="checkbox" id="rememberMe">Remember Me</td>
+                        <td><a href="">Forgot Your Password?</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="E-mail" name="email" id="emailLogin"></td>
+                        <td><input type="text" name="password" id="passwordLogin"></td>
+                        <td><button class="button" type="submit">Login</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main1">
+            <h2>Facebook helps you connect and share with <br> the people in your life.</h2>
+            <img src="facebookimage.png" alt="Facebook Image">
+        </div>
+
+        <div class="main2">
+            <h1>Sign Up</h1>
+            <h3>It's free and anyone can join</h3>
+            <form action="" id="signupForm">
+                <div class="form">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="fname">First Name:</label>
+                                <input type="text" name="fname" id="fname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="lname">Last Name:</label>
+                                <input type="text" name="lname" id="lname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Your E-mail:</label>
+                                <input type="email" name="email" id="email">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">New Password:</label>
+                                <input type="password" name="password" id="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="gender">I am:</label>
+                                <select name="gender" id="gender">
+                                    <option value="">Select Sex:</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="others">Others</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="birthday">Birthday:</label>
+                                <select name="month" id="month">
+                                    <option value="">Month:</option>
+                                    <option value="January">January</option>
+                                    <option value="February">February</option>
+                                </select>
+
+                                <select name="day" id="day">
+                                    <option value="">Day:</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                </select>
+
+                                <select name="year" id="year">
+                                    <option value="">Year:</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2002">2002</option>
+                                </select>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="">Why do I need to provide this?</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit">Sign Up</button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+            <hr>
+            <a href="" style="color: blue;">Create a page</a> for a celebrity, band or business
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="facebook1.js"></script>
+</body>
+
+</html>

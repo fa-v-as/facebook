@@ -1,0 +1,64 @@
+.navbar{
+    background-color: rgba(68, 68, 233, 0.696);
+    color: white;
+    position: relative;
+    height: 100px;
+    display: flex;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.navbar h1{
+    font-size:40px;
+    margin: 0;
+    padding: 20px;
+}
+
+.navform{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.navform .top{
+    font-size: smaller;
+}
+
+.navform a{
+    color: white;
+    text-decoration: none;
+}
+
+.navform button{
+    background-color: rgb(68, 68, 224);
+    color: white;
+}
+
+.main{
+    color: rgb(19, 19, 110);
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.main1{
+    float: left;
+    padding: 10px;
+}
+
+.main2{
+    float: right;
+    margin-right: 200px;
+}
+
+
+.main button{
+    background-color: rgb(66, 156, 66);
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.error{
+    color: red;
+}
